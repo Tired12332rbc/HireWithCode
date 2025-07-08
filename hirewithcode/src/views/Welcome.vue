@@ -1,8 +1,8 @@
 
 <template>
   <div class="welcome">
-    <img src="/logo.png" alt="Logo" />
-    <h1>欢迎使用 HireWithCode 面试挑战</h1>
+    <img src="/public/logo.png" alt="Logo" />
+    <h1>欢迎来参加无限状态面试挑战</h1>
   </div>
 </template>
 
@@ -26,5 +26,11 @@ onMounted(() => {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto ;
 }
 </style>
